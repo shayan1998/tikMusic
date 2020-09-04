@@ -1,0 +1,52 @@
+{
+  "name": "geevmusic",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.6",
+    "@react-native-community/viewpager": "^3.3.0",
+    "axios": "^0.19.2",
+    "native-base": "^2.13.8",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-anchor-carousel": "^3.1.1",
+    "react-native-animatable": "^1.3.3",
+    "react-native-background-downloader": "^2.3.4",
+    "react-native-circular-progress": "^1.3.6",
+    "react-native-gesture-handler": "^1.5.3",
+    "react-native-headroom": "^1.0.1",
+    "react-native-music-control": "^0.10.8",
+    "react-native-pose": "^0.9.1",
+    "react-native-reanimated": "^1.7.0",
+    "react-native-safe-area-context": "^0.6.4",
+    "react-native-screens": "^2.0.0-alpha.32",
+    "react-native-slider": "^0.11.0",
+    "react-native-svg": "^11.0.1",
+    "react-native-swiper": "^1.5.14",
+    "react-native-video": "^5.0.2",
+    "react-navigation": "^4.1.0",
+    "react-navigation-stack": "^2.0.16",
+    "react-navigation-tabs": "^2.7.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "toggle-switch-react-native": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
